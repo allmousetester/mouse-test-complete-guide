@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Test Your Mouse Online: A Complete Guide</title>
+<meta name="description" content="A practical, step-by-step routine for checking every part of your mouse in a web browser: buttons, wheel, sensor, polling rate and click consistency.">
+<meta name="robots" content="index, follow">
+<style>*{box-sizing:border-box}body{margin:0;font:17px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1d2230;background:#f6f7fb}main{max-width:760px;margin:0 auto;padding:32px 20px 60px;background:#fff}h1{font-size:1.9rem;line-height:1.25;margin:.2em 0 .6em}h2{font-size:1.3rem;margin:1.8em 0 .5em}a{color:#1a56db}ol,ul{padding-left:1.3em}li{margin:.3em 0}.note{background:#eef4ff;border-left:4px solid #1a56db;padding:12px 16px;border-radius:6px}footer{font-size:.9rem;color:#555;margin-top:2.5em;border-top:1px solid #e3e6ee;padding-top:1em}@media(max-width:600px){body{font-size:16px}main{padding:22px 14px}h1{font-size:1.5rem}}</style>
+</head>
+<body>
+<main>
+<article>
+<h1>How to Test Your Mouse Online: A Complete Guide</h1>
+
+<p>A mouse rarely fails all at once. More often it starts with small annoyances: a click that does not register, a drag that drops halfway, a scroll that jumps back up the page. Before you blame your computer, your game or your drivers, it is worth spending five minutes testing the mouse itself. You do not need special software for this. A modern browser can see every button press, wheel notch and pointer movement, which makes it a surprisingly good diagnostic bench.</p>
+<p>This guide walks through a simple routine that works on Windows, macOS, Linux and Chromebooks, using free tools that run in the browser with nothing to install.</p>
+<h2>Why test in the browser?</h2>
+<p>Manufacturer utilities are useful, but they only support their own brand, and they often hide raw behaviour behind smoothing or profiles. A browser test sees what the operating system actually delivers to applications. If a button misbehaves in the browser, it will usually misbehave in your games and work apps too. That makes the result easy to trust and easy to repeat on a second computer, which is the quickest way to tell a hardware fault from a software one.</p>
+<h2>Step 1: Start with a full overview</h2>
+<p>Open a general mouse tester such as <a href="https://allmousetester.com/">All Mouse Tester</a>. Its homepage shows a diagram of the mouse and lights up each button as you press it: left, right, middle, and the two side buttons used for back and forward. Press each one slowly, a few times. Every press should light up exactly once, and every release should clear it. If a button never lights up, it is either dead or remapped by software. If it flickers or lights twice, keep a note: that is a sign of a worn switch, which you will check more closely in Step 3.</p>
+<h2>Step 2: Check the wheel</h2>
+<p>Scroll slowly up for ten notches, then down for ten. The counter should move in one direction only. A scroll that occasionally registers the opposite way is called a reversal, and it usually points to dust in the wheel encoder or a worn encoder. Press the wheel down as well, since the middle click is a separate switch that can fail on its own.</p>
+<h2>Step 3: Look for accidental double clicks</h2>
+<p>Unwanted double clicks are one of the most common mouse complaints. Files open when you meant to select them, and drags let go early. To check, click slowly, about once per second, in a dedicated double click test and watch whether any single press is counted twice. Very short gaps between two registered clicks on one press are the classic sign of switch bounce.</p>
+<h2>Step 4: Measure click speed</h2>
+<p>A timed clicks-per-second test is mostly used for practice, but it is also a sanity check for the left switch. If your count suddenly looks unrealistically high for your normal clicking style, a chattering switch may be adding clicks. Try the <a href="https://allmousetester.com/click-speed-test/">online click speed test</a> with a 5 or 10 second timer for a quick baseline.</p>
+<h2>Step 5: Confirm the polling rate</h2>
+<p>Polling rate is how many times per second the mouse reports its position, measured in hertz. Move the mouse in steady circles in a polling rate test and compare the estimate with what your mouse is set to. A gaming mouse set to 1000 Hz that reads far lower may be on the wrong USB port, in a power-saving mode or running through a slow hub.</p>
+<h2>Step 6: Try a drag</h2>
+<p>Hold the left button and drag across the screen for a few seconds. If the drag breaks even though you never let go, the switch is losing contact while held. This often shows up alongside double clicking.</p>
+<h2>Reading your results</h2>
+<ul>
+<li><strong>Everything passes:</strong> the problem is likely in software. Check drivers, pointer settings or the application.</li>
+<li><strong>One button fails on every computer:</strong> the hardware is at fault. Cleaning, a warranty claim or a replacement switch are the usual options.</li>
+<li><strong>Problems only on one computer:</strong> try another USB port, remove hubs, and update or reinstall drivers.</li>
+</ul>
+<p class="note">Tip: run the same test twice, a few minutes apart. Intermittent faults are real faults, but a single odd reading can be a slip of the finger.</p>
+<h2>Keep a simple record</h2>
+<p>When a mouse is under warranty, a short note with the date, the test you ran and what you saw makes support conversations much easier. Screenshots of a failing result are even better. All the tools mentioned here are available free at https://allmousetester.com/, so you can repeat the same checks before and after any fix and see whether it actually worked.</p>
+
+<h2>Related resources</h2><ul><li><a href="https://sites.google.com/view/allmousetester">All Mouse Tester on Google Sites</a></li><li><a href="https://docs.google.com/document/d/17yEBqyUQV4uooRwdPzq7bI04qpfudVrjw8CiW0Xd8Rg/edit">Complete Guide to Testing Your Mouse Online (Google Doc)</a></li></ul>
+</article>
+<footer>Independent guide. The free browser tools mentioned here are part of All Mouse Tester.</footer>
+</main>
+</body>
+</html>
